@@ -10,7 +10,7 @@ const App = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (input.trim() === "") {
-      setResponse("Please enter a prompt!");
+      setResponse("Masukkan Pertanyaan");
       return;
     }
 
@@ -53,7 +53,7 @@ const App = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-purple-900 to-indigo-900 text-white">
       <h1 className="text-5xl font-bold mb-4">
-        ALPHABOT <FaRobot className="inline ml-2" />
+        VYNNKYBOT <FaRobot className="inline ml-2" />
       </h1>
       <p className="mb-8 text-lg text-gray-300">Pembantu Pribadi Alvin</p>
 
