@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AlphaBOT - Your Intelligent Assistant
 
 ![ALPHABOT Assistant](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO24_WhatsInAName_SocialShare_S96SOzG.width-1300.png)
@@ -65,3 +66,7 @@ Developed by Subhadip Samanta.
 ---
 
 © 2025 AlphaBOT - Your Intelligent Assistant
+=======
+# AlphaBOT-AI-Chatbot
+Realtime AI chatbot powered by GeminiAI
+>>>>>>> 42fbcf6bf96858af17a953d94513e8110dbe3483
