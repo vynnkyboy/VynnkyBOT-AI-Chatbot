@@ -55,12 +55,12 @@ const App = () => {
       <h1 className="text-5xl font-bold mb-4">
         ALPHABOT <FaRobot className="inline ml-2" />
       </h1>
-      <p className="mb-8 text-lg text-gray-300">Your Intelligent Assistant</p>
+      <p className="mb-8 text-lg text-gray-300">Pembantu Pribadi Alvin</p>
 
       <form onSubmit={handleSubmit} className="flex items-center mb-6 w-full max-w-md">
         <input
           type="text"
-          placeholder="Ask me anything..."
+          placeholder="Tanya Apa Saja..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
           className="flex-grow px-6 py-3 rounded-full bg-white text-gray-900 focus:outline-none border-b-2 border-purple-500"
@@ -74,10 +74,10 @@ const App = () => {
       </form>
 
       <div className="bg-white text-gray-900 rounded-xl p-6 shadow-xl w-[90%] max-w-2xl">
-        <h2 className="text-xl font-bold text-purple-600 mb-2">Bot's Response:</h2>
+        <h2 className="text-xl font-bold text-purple-600 mb-2">Jawaban VynnkyBot</h2>
         <hr className="mb-4" />
         <p className="whitespace-pre-wrap min-h-[80px]">
-          {loading ? "Thinking..." : response || "Welcome to ALPHABOT 🤖"}
+          {loading ? "Berpikir..." : response || "Welcome to VYNNKYBOT 🤖"}
         </p>
       </div>
 
@@ -113,7 +113,7 @@ const App = () => {
       </div>
 
       <p className="mt-6 text-sm text-white opacity-80">
-        Developed by Subhadip Samanta
+        Dev By VynnkyBoy
       </p>
     </div>
   );
